@@ -104,6 +104,16 @@ body {
   text-transform: uppercase;
 }
 
+.reset {
+  border: 2px solid #98a3ac5e;
+  border-radius: 5px;
+  height: 2rem;
+  width: 5.2rem;
+  color: #e6f4ff;
+  background-color: #2d3439;
+  cursor: pointer;
+}
+
 .reset.hidden {
   display: none;
 }
@@ -162,16 +172,6 @@ body {
 
 .form__btn {
   display: none;
-}
-
-.refresh {
-  border: 2px solid #98a3ac5e;
-  border-radius: 5px;
-  height: 2rem;
-  width: 5.2rem;
-  color: #e6f4ff;
-  background-color: #2d3439;
-  cursor: pointer;
 }
 
 /* MAP */

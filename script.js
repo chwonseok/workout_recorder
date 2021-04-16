@@ -56,7 +56,6 @@ class Cycling extends Workout {
 }
 
 /////////////////////////////////////
-/////////////////////////////////////
 
 class App {
   #map;
@@ -147,16 +146,10 @@ class App {
     }
 
     this.#workouts.push(workout);
-    console.log(workout);
-
     this._hideForm();
-
     this._renderWorkoutMarker(workout);
-
     this._renderWorkout(workout);
-
     this._setLocalStorage();
-
     this._activateReset();
   }
 
